@@ -1,0 +1,25 @@
+<div class="container-fluid" style="border: 1px solid black; background-color: blanchedalmond">
+        <h3>
+            <fieldset>Bank search Application </fieldset>
+        </h3>
+        <p><input type="text" id="myInput" placeholder="Search for names.." title="Type in a name"></p>
+        <div class="search" style="float: right">
+            <input type="text" placeholder="Search..">
+        </div>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <th style="background-color: gray">BANK-NAME</th>
+                <th style="background-color: gray">IFSC</th>
+                <th style="background-color: gray">BANK ID</th>
+                <th style="background-color: gray">BRANCH</th>
+            </tr>
+            <tr *ngFor="let a of arr">
+                <td>{{a.Bankname}}</td>
+                <td>{{a.IFSC}}</td>
+                <td>{{a.BankId}}</td>
+                <td>{{a.Branch}}</td>
+            </tr>
+        </table>          
+</div>

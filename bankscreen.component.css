@@ -1,0 +1,10 @@
+.topnav{
+    float: right;
+}
+table,th,td{
+    border: 1px solid black;
+    width: 100%;
+}
+P{
+    width: 1295px;
+}
